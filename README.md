@@ -14,7 +14,9 @@
     - [Task 6: Greedy Algorithms and Dynamic Programming](#task-6-greedy-algorithms-and-dynamic-programming)
     - [Task 7: Monte Carlo Simulation](#task-7-monte-carlo-simulation)
   - [Results](#results)
+    - [Monte Carlo Simulation Results](#monte-carlo-simulation-results)
   - [Conclusion](#conclusion)
+  - [Conclusion](#conclusion-1)
 
 ## Introduction
 This project involves a series of tasks aimed at demonstrating proficiency in various data structures and algorithms, including linked lists, recursion, graph algorithms, and more. Each task is implemented in Python and includes visualizations and analyses to support the solutions.
@@ -72,7 +74,6 @@ Three operations on singly linked lists:
 3. **Compare with Analytical Probabilities**: Compare the simulated probabilities with the analytical probabilities provided. Visualize the results using a plot to show how closely the simulation matches the theoretical values.
 
 
-
 ## Results
 The results include:
 - Correct implementation of linked list operations.
@@ -81,6 +82,26 @@ The results include:
 - Visualization of the binary tree and traversal orders.
 - Comparison of solutions from greedy and dynamic programming algorithms for the food selection problem.
 - Probability distribution of dice roll sums from the Monte Carlo simulation compared with analytical probabilities.
+
+### Monte Carlo Simulation Results
+
+| Sum | Analytical P (%) | Simulation P (%) | Difference |
+| --- | ---------------- | ---------------- | ---------- |
+| 2   | 2.78             | 2.885            | 0.105      |
+| 3   | 5.56             | 5.601            | 0.041      |
+| 4   | 8.33             | 8.297            | -0.033     |
+| 5   | 11.11            | 11.121           | 0.011      |
+| 6   | 13.89            | 13.949           | 0.059      |
+| 7   | 16.67            | 16.533           | -0.137     |
+| 8   | 13.89            | 13.876           | -0.014     |
+| 9   | 11.11            | 11.107           | -0.003     |
+| 10  | 8.33             | 8.371            | 0.041      |
+| 11  | 5.56             | 5.519            | -0.041     |
+| 12  | 2.78             | 2.741            | -0.039     |
+
+## Conclusion
+This project demonstrates various data structures and algorithms, including their implementation, visualization, and analysis. Each task provides a practical application of these concepts, showcasing their utility and performance in different scenarios.
+
 
 ## Conclusion
 This project demonstrates various data structures and algorithms, including their implementation, visualization, and analysis. Each task provides a practical application of these concepts, showcasing their utility and performance in different scenarios.
